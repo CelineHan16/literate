@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.navbar {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 15px 10px 13px;
+}
+.navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom: 5px solid black;
+}
+
+.navbar.navbar-red {
+  background-color: rgb(255, 38, 38);
+}
+.navbar.navbar-red li a {
+  padding: 10px 10px 7px;
+  color: white;
+}
+.navbar.navbar-red a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom: 5px solid white;
+}
+.navbar.navbar-fixed {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
